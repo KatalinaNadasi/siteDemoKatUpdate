@@ -1,0 +1,421 @@
+/*ALL*/
+
+a{
+  text-decoration:none;
+  color:#333;
+}
+
+body {
+  margin: 0;
+  background-size: 1440px 800px;
+  font-family : 'Raleway', sans-serif;
+}
+
+p, h1 {
+  font-family : 'Raleway', sans-serif;
+}
+
+/*NAVIGATION*/
+
+#logo{
+  width:40px;
+  height:40px;
+}
+
+#navbar {
+  padding: 10px 25px 0 15px;
+  background-color: #242424;
+  border-bottom: 1px solid #b9b9b9;
+  font-family: 'Lato', sans-serif;
+}
+
+#navbar a {
+  color: #F7EBDF !important;
+}
+
+#navbar a:hover {
+  color: #ffffff !important;
+  background-color: #646464 !important;
+}
+
+
+/*HEADER*/
+
+*:lang(en){
+  display: none !important;
+}
+
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+button.btn-language {
+    padding: 5px 15px;
+    margin: 10px 5px 15px;
+    border: none;
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+}
+
+button.btn-language:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 1.8rem;
+}
+
+.header {
+  padding: 140px 0 0 0;
+  background-color: #143B40;
+  background-size: cover;
+  width: 100%;
+}
+
+.header h1 {
+  color: #B70103;
+  font-family: 'Pacifico', cursive;
+  font-size: 7.5em;
+}
+
+.header p {
+  color: #F7EBDF;
+  font-size: 1.6em !important;
+}
+
+.header .btn {
+  padding: 10px 20px 10px 20px;
+  border-radius: 0px;
+}
+
+/*STUDIES*/
+
+.studies {
+  padding: 50px 0 100px;
+  text-align: center;
+  background-color: #F7EBDF;
+}
+
+.studies h1 {
+  font-size: 2,5em;
+  color: #242424;
+  padding: 0 0 100px;
+}
+
+.studies h4 {
+  color: #666666;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.studies p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 0.9em;
+}
+
+.studies em {
+  color: grey;
+}
+
+.studies a {
+  text-decoration: none;
+}
+
+.studies #img {
+  width:100px;
+  height:100px;
+  max-width: 100%;
+  box-shadow: 2px 2px 3px grey;
+}
+
+/*SKILLS*/
+
+.skills {
+  background-color: #143B40;
+  text-align: center;
+  color: #F7EBDF;
+  padding: 90px 0 90px;
+}
+
+.skills h1 {
+  font-size: 2.5em;
+  padding-bottom: 35px;
+  color: #F7EBDF;
+}
+
+.skills img {
+  padding: 35px 0 35px;
+}
+
+.skills p {
+  font-size: 1;
+  padding-bottom: 25px;
+}
+
+.skills em {
+  font-size: 1.5em;
+}
+
+/*CERTIFICATIONS*/
+
+.certifications {
+  text-align: center;
+  background-color: #F7EBDF;
+}
+
+.certifications p {
+  padding-bottom: 55px;
+}
+
+.certifications h4 {
+  font-size: 2.3em;
+  padding-bottom: 5px;
+  margin-top: none;
+  color: #242424;
+}
+
+.certifs-logo {
+  padding: 0 85px 0 0;
+}
+
+.certifications .certifs-logo li img {
+  opacity: 0.5;
+  padding-bottom: 25px;
+}
+
+.certifications .certifs-logo p {
+  width:220px;
+  height:20px;
+}
+
+.certifications .certifs-logo li:hover img {
+  opacity: 1;
+}
+
+.certifications {
+  text-align: center;
+}
+
+
+.certifications .certifications-logo  img {
+  opacity: 0.5;
+}
+
+.certifications .certifications-logo li img #press {
+  opacity: 0.5;
+  width:250px;
+  height:180px;
+  max-width: 100%;
+}
+
+.certifications .certifications-logo li:hover img {
+  opacity: 1;
+}
+
+/*PRESS*/
+
+.press-img {
+  width: 130px;
+  height: 110px;
+}
+
+.span12 {
+  padding-bottom: 55px;
+}
+
+/*SCREENSHOTS*/
+
+.screenshots {
+  background-color: #143B40;
+  padding: 90px 0 90px;
+  text-align: center;
+  color: #F7EBDF;
+}
+
+.screenshots img {
+  padding: 20px 12px 5px;
+}
+
+.screenshots h1 {
+  font-size: 2em;
+}
+
+.work-img {
+  height: 450px;
+  width: 390px;
+}
+
+.recent-work-img {
+  width: 390px;
+  height: 335px;
+}
+
+.over {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  border: 0;
+}
+
+.over:hover {
+  opacity: 0.93;
+}
+
+figcaption {
+  background: rgba(0, 0, 255, 0.92);
+  padding: 9px 25px;
+  margin: 19px 10px 7px 10px;
+  color: white;
+  border: 3px solid white;
+  font-size: 19px;
+  position: absolute;
+  top: 50%;
+  opacity: 0;
+  height: 311px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+figcaption:hover {
+  opacity: 0.93;
+}
+
+figcaption a {
+  color: white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.btn-primary:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+
+/*CONTACT*/
+
+.contact {
+  padding: 100px 0 100px;
+  text-align: center;
+  background-color: #F7EBDF;
+}
+
+.contact h1 {
+  font-size: 2em;
+  padding-bottom: 25px;
+}
+
+.contact .fa {
+  color: #143B40;
+  padding: 20px 10px 40px;
+}
+
+.contact li {
+  padding-top: 10px;
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: #143B40;
+  color: #F7EBDF;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer .fa {
+  color: #B70103;
+}
+
+.footer h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+}
+
+.ending {
+  background-color: #242424;
+  margin-bottom: none;
+  text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+
+  .header {
+    text-align: center;
+    padding-top: 20%;
+  }
+
+  .header h1 {
+    font-size: 5em;
+  }
+
+  .header p {
+    font-size: 1em;
+  }
+
+  .header .btn {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .header img {
+    padding-top: 10%;
+  }
+
+
+@media (max-width: 480px) {
+  .container {
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 4em;
+  }
+
+
+  .certifications #press p {
+    text-align: center;
+  }
+}
+
+}
+@media (min-width: 992px) {
+
+  .header h1 {
+    font-size: 5em;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
