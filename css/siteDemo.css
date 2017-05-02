@@ -41,6 +41,18 @@ p, h1 {
 
 /*HEADER*/
 
+body.en :lang(fr) {
+  display: none;
+}
+
+body.en :lang(en) {
+  display: block;
+}
+
+body.fr :lang(en) {
+  display: none;
+}
+
 *:lang(en){
   display: none !important;
 }

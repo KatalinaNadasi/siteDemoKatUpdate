@@ -4,6 +4,20 @@ $(window).on('load',function(){
   $('#myModal').modal('show');
 });
 
+$(function(){
+  $("#fr-btn").click(function(){
+    document.body.className = 'fr';
+  });
+  $("#en-btn").click(function(){
+    document.body.className = 'en';
+  });
+});
+
+
+
+
+
+
 
 function redimensionnement(){
 
