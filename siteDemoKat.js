@@ -1,9 +1,16 @@
 // modal
 
-$(window).on('load',function(){
-  $('#myModal').modal('show');
+$(document).ready(function(){
+            setTimeout(function(){
+        $("#myModal").modal('show');
+    },3000);
 });
 
+$(function () {
+  $('#fr-btn, #en-btn').click(function(){
+    $('#myModal').modal('hide')
+  });
+});
 
 function redimensionnement(){
 
