@@ -1,5 +1,10 @@
 /*ALL*/
 
+article, aside, details, figcaption,  figure,  footer, header, hgroup, menu, nav, section {
+	display : block ;
+}
+
+
 a{
   text-decoration:none;
   color:#333;
@@ -397,6 +402,10 @@ transition: all 0.4s ease;
 .contact .fa {
   color: #143B40;
   padding: 20px 10px 40px;
+}
+
+.contact .fa:hover {
+  color: #777;
 }
 
 .contact li {
