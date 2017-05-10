@@ -5,15 +5,23 @@ article, aside, details, figcaption,  figure,  footer, header, hgroup, menu, nav
 }
 
 
-a{
-  text-decoration:none;
-  color:#333;
+a {
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  color: #333;
 }
 
 body {
   margin: 0;
+  -webkit-background-size: 1440px 800px;
+  -moz-background-size: 1440px 800px;
+  -ms-background-size: 1440px 800px;
+  -o-background-size: 1440px 800px;
   background-size: 1440px 800px;
-  font-family : 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 p, h1 {
@@ -27,8 +35,16 @@ p, h1 {
   height:40px;
 }
 
-#logo:hover{
+#logo:hover {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
   transform: rotate(5deg);
+  -webkit-transition: 0.25 all ease;
+  -moz-transition: 0.25 all ease;
+  -ms-transition: 0.25 all ease;
+  -o-transition: 0.25 all ease;
   transition: 0.25 all ease;
 }
 
@@ -51,26 +67,22 @@ p, h1 {
 
 /*HEADER*/
 
-body.en :lang(fr) {
-  display: none;
-}
-
-body.en :lang(en) {
-  display: block;
-}
-
-body.fr :lang(en) {
-  display: none;
-}
-
-*:lang(en){
-  display: none !important;
-}
-
-.modal-content  {
-    -webkit-border-radius: 0px !important;
-    -moz-border-radius: 0px !important;
-    border-radius: 0px !important;
+.modal-content {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -ms-border-radius: 0px !important;
+  -o-border-radius: 0px !important;
+  border-radius: 0px !important;
 }
 
 button.btn-language {
@@ -92,6 +104,10 @@ button.btn-language:hover {
 .header {
   padding: 140px 0 0 0;
   background-color: #143B40;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   width: 100%;
 }
@@ -109,11 +125,23 @@ button.btn-language:hover {
 
 .header .btn {
   padding: 10px 20px 10px 20px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
   border-radius: 0px;
+  -webkit-transform: scale(.9, .9);
+  -moz-transform: scale(.9, .9);
+  -ms-transform: scale(.9, .9);
+  -o-transform: scale(.9, .9);
   transform: scale(.9, .9);
 }
 
 .header .btn:hover {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
   transform: scale(1, 1);
 }
 
@@ -148,13 +176,21 @@ button.btn-language:hover {
 }
 
 .studies a {
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
   text-decoration: none;
 }
 
 .studies #img {
-  width:100px;
-  height:100px;
+  width: 100px;
+  height: 100px;
   max-width: 100%;
+  -webkit-box-shadow: 2px 2px 3px grey;
+  -moz-box-shadow: 2px 2px 3px grey;
+  -ms-box-shadow: 2px 2px 3px grey;
+  -o-box-shadow: 2px 2px 3px grey;
   box-shadow: 2px 2px 3px grey;
 }
 
@@ -209,16 +245,24 @@ button.btn-language:hover {
 }
 
 .certifications .certifs-logo li img {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -ms-opacity: 0.5;
+  -o-opacity: 0.5;
   opacity: 0.5;
   padding-bottom: 25px;
 }
 
 .certifications .certifs-logo p {
-  width:220px;
-  height:20px;
+  width: 220px;
+  height: 20px;
 }
 
 .certifications .certifs-logo li:hover img {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -ms-opacity: 1;
+  -o-opacity: 1;
   opacity: 1;
 }
 
@@ -226,19 +270,30 @@ button.btn-language:hover {
   text-align: center;
 }
 
-
 .certifications .certifications-logo  img {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -ms-opacity: 0.5;
+  -o-opacity: 0.5;
   opacity: 0.5;
 }
 
 .certifications .certifications-logo li img #press {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -ms-opacity: 0.5;
+  -o-opacity: 0.5;
   opacity: 0.5;
-  width:250px;
-  height:180px;
+  width: 250px;
+  height: 180px;
   max-width: 100%;
 }
 
 .certifications .certifications-logo li:hover img {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -ms-opacity: 1;
+  -o-opacity: 1;
   opacity: 1;
 }
 
@@ -281,50 +336,174 @@ button.btn-language:hover {
 }
 
 .over {
-background-color: black;
-display: block;
-width: 351px;
-margin-top: 20px;
-margin-left: 27px;
-height: 310px;
-position: absolute;
-left: 0;
-top: 0;
-text-align: center;
-border: 0;
--webkit-text-decoration: none;
--moz-text-decoration: none;
--ms-text-decoration: none;
--o-text-decoration: none;
-text-decoration: none;
--webkit-opacity: 0;
--moz-opacity: 0;
--ms-opacity: 0;
--o-opacity: 0;
-opacity: 0;
--webkit-transition: all 0.4s ease;
--moz-transition: all 0.4s ease;
--ms-transition: all 0.4s ease;
--o-transition: all 0.4s ease;
-transition: all 0.4s ease;
--webkit-transition: all 0.4s ease;
--moz-transition: all 0.4s ease;
--ms-transition: all 0.4s ease;
--o-transition: all 0.4s ease;
-transition: all 0.4s ease;
--webkit-transition: all 0.4s ease;
--moz-transition: all 0.4s ease;
--ms-transition: all 0.4s ease;
--o-transition: all 0.4s ease;
-transition: all 0.4s ease;
--webkit-transition: all 0.4s ease;
--moz-transition: all 0.4s ease;
--ms-transition: all 0.4s ease;
--o-transition: all 0.4s ease;
-transition: all 0.4s ease;
+  background-color: black;
+  display: block;
+  width: 351px;
+  margin-top: 20px;
+  margin-left: 27px;
+  height: 310px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  border: 0;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -ms-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -ms-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .over:hover {
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
   opacity: 0.92;
 }
 
@@ -343,7 +522,47 @@ transition: all 0.4s ease;
   -ms-opacity: 0.92;
   -o-opacity: 0.92;
   opacity: 0.92;
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
+  opacity: 0.92;
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
+  opacity: 0.92;
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
+  opacity: 0.92;
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
+  opacity: 0.92;
   margin: -20px 0 0 -88px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -367,7 +586,47 @@ transition: all 0.4s ease;
   -ms-opacity: 0.92;
   -o-opacity: 0.92;
   opacity: 0.92;
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
+  opacity: 0.92;
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
+  opacity: 0.92;
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
+  opacity: 0.92;
+  -webkit-opacity: 0.92;
+  -moz-opacity: 0.92;
+  -ms-opacity: 0.92;
+  -o-opacity: 0.92;
+  opacity: 0.92;
   margin: -20px 0 0 -88px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -435,8 +694,6 @@ transition: all 0.4s ease;
   margin-bottom: none;
   text-align: center;
 }
-
-
 
 @media (min-width: 768px) {
 
