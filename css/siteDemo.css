@@ -757,6 +757,7 @@ button.btn-language:hover {
 
 	.more-tall p, .more p {
 		font-size: 13px;
+		margin: 0;
 	}
 }
 
