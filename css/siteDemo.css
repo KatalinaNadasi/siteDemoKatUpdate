@@ -320,12 +320,6 @@ button.btn-language:hover {
   font-size: 2em;
 }
 
-.img-thumbnail {
-	border-radius: 0 !important;
-	height: 255px !important;
-	margin: 15px !important;
-}
-
 .work-img {
   height: 450px;
   width: 377px;
@@ -378,7 +372,7 @@ button.btn-language:hover {
   left: 25%;
   top: 20px;
   bottom: 0px;
-	right: 0;
+	right: 44px;
   -webkit-opacity: 0.92;
   -moz-opacity: 0.92;
   -ms-opacity: 0.92;
@@ -473,6 +467,21 @@ textarea.form-control {
   text-align: center;
 }
 
+.thumbnail {
+	border-radius: 0 !important;
+	height: 255px !important;
+	margin: 15px !important;
+	display: inline-block;
+	max-width: 100%;
+	padding: 4px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
 @media (max-width: 480px) {
   .container {
     text-align: center;
@@ -559,7 +568,6 @@ textarea.form-control {
 }
 
 @media (min-width: 992px) {
-
   .header h1 {
     font-size: 5em;
   }
@@ -570,8 +578,8 @@ textarea.form-control {
   }
 }
 
-@media (max-width: 990px) {
+/*@media (max-width: 1200px) {
 	.over {
 		display: none;
 	}
-}
+}*/
