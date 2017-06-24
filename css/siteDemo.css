@@ -316,12 +316,14 @@ button.btn-language:hover {
   color: #F7EBDF;
 }
 
-.screenshots img {
-  padding: 20px 12px 5px;
-}
-
 .screenshots h1 {
   font-size: 2em;
+}
+
+.img-thumbnail {
+	border-radius: 0 !important;
+	height: 255px !important;
+	margin: 15px !important;
 }
 
 .work-img {
@@ -335,14 +337,11 @@ button.btn-language:hover {
 }
 
 .over {
-  display: block;
-  width: 353px;
-  margin-top: 20px;
-  margin-left: 27px;
-  height: 310px;
-  position: absolute;
-  left: 0;
-  top: 0;
+	position: absolute;
+  left: 49px;
+  top: 15px;
+  right: 0;
+  bottom: 15px;
   text-align: center;
   border: 0;
   -webkit-text-decoration: none;
@@ -372,14 +371,14 @@ button.btn-language:hover {
 
 .more {
   background-color: black;
-  padding: 9px 25px;
   color: white;
   border: 3px solid white;
-  font-size: 18px;
+  font-size: 17px;
   position: absolute;
   left: 25%;
   top: 20px;
   bottom: 0px;
+	right: 0;
   -webkit-opacity: 0.92;
   -moz-opacity: 0.92;
   -ms-opacity: 0.92;
@@ -391,30 +390,7 @@ button.btn-language:hover {
   -ms-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
-}
-
-.more-tall {
-  background-color: black;
-  padding: 9px 25px;
-  color: white;
-  border: 3px solid white;
-  font-size: 18px;
-  width: 354px;
-  position: absolute;
-  left: 25%;
-  top: 20px;
-  bottom: -115px;
-  -webkit-opacity: 0.92;
-  -moz-opacity: 0.92;
-  -ms-opacity: 0.92;
-  -o-opacity: 0.92;
-  opacity: 0.92;
-  margin: -20px 0 0 -88px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+	padding: 0px 12px;
 }
 
 .form-control, .btn-default {
@@ -423,7 +399,7 @@ button.btn-language:hover {
 
 .form-group p {
 	font-size: 18px;
-	text-align: justify;
+	text-align: -webkit-center;
 }
 
 textarea.form-control {
@@ -438,12 +414,12 @@ textarea.form-control {
 .btn-primary {
   color: #fff;
   background-color: black !important;
-  border-color: white !important;
+  border: 1px solid white !important;
 }
 
 .btn-primary:hover {
   background-color: white !important;
-	border: none;
+	border: 1px solid white;
   color: black !important;
 }
 
@@ -520,39 +496,23 @@ textarea.form-control {
     text-align: center;
   }
 
-	.screenshots img {
-		width: 250px;
-    height: 300px;
-	}
-
 	.over {
 		width: 228px;
     height: 276px;
     margin-left: 51px;
 	}
 
-	.more {
-		left: 114px;
-		padding: 0px 12px;
-		margin: -20px 1px 0 -114px;
-	}
 
 	.screenshots h1 {
 		font-size: 8vw;
 	}
 
-	.more-tall {
-		width: 227px;
-		height: 276px;
-		left: 39%;
-		padding: 0;
-	}
-
-	.more-tall p, .more p {
+	.more p {
 		font-size: 13px;
 		margin: 0;
 	}
 }
+
 
 @media (max-width: 768px) {
 	.certifs-logo {
@@ -561,6 +521,16 @@ textarea.form-control {
 
 	.press-img {
 		margin-top: 15px;
+	}
+
+	.skills img {
+		width: 245px;
+	}
+}
+
+@media (max-width: 990px) {
+	.form-group p {
+		margin: 50px 0;
 	}
 }
 
@@ -586,8 +556,6 @@ textarea.form-control {
   .header img {
     padding-top: 10%;
   }
-
-
 }
 
 @media (min-width: 992px) {
@@ -600,4 +568,10 @@ textarea.form-control {
   .container {
     width: 1170px;
   }
+}
+
+@media (max-width: 990px) {
+	.over {
+		display: none;
+	}
 }
